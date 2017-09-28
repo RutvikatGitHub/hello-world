@@ -1,0 +1,30 @@
+.inventory {
+  float: left;
+  padding: 15px;
+  width: 40%;
+}
+
+.cart {
+  float: right;
+  padding: 15px;
+  width: 50%;
+}
+
+.Row
+{
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+  border: 1px solid black;
+}
+.Column
+{
+  display: table-cell;
+}
+
+.Total {
+  float: right;
+  padding: 15px;
+  width: 21%;
+}
